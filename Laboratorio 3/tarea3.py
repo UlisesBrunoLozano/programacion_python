@@ -1,3 +1,6 @@
+#Ejercicio 1
+#Ulises Bruno Lozano
+#29/11/2016
 import matplotlib.pyplot as plt
 import math as m
 import numpy as np
