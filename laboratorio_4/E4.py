@@ -1,3 +1,6 @@
+#Tarea 4 Ejercicio 4
+#Ulises Bruno Lozano
+#03/12/16
 import matplotlib.pyplot as plt
 import numpy as np
 x=np.arange(0.0,2,0.01)
