@@ -1,3 +1,6 @@
+#Tarea 4 Ejercicio 1 b)
+#Ulises Bruno Lozano
+#02/12/16
 import matplotlib.pyplot as plt
 import numpy as np
 x=np.linspace(-1,5,93)
