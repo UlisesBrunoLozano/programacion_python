@@ -1,25 +1,23 @@
-peso=input("kilogramos")
-altura=input("metros")
+import math
+a=input("Peso(kg): ")
+h=input("Altura(cm): ")
 def masacorporal(peso, altura):
-  return peso/altura**altura
-if masacorporal<16:
-    print "Delgadez"
-elif masacorporal<99 and
-        masacorporal>16:
-elif masacorporal>16 and
-        masacorporal<19.99
+    peso=a
+    alturacm=h
+    alturam=h/float(100)
+    IMC=peso/float(alturam)**2
+    if IMC<16:
+        print "Delgadez severa"
+    elif IMC>16 and IMC<19.99:
         print "Delgadez moderada"
-elif masacorporal>17 and
-        masacorporal<18.49
+    elif IMC>17 and IMC<18.49:
         print "Delgadez leve"
-elif masacorporal>18.5 and
-        masacorporal<24.99
+    elif IMC>18.5 and IMC<24.99:
         print "Normal"
-elif masacorporal>25 and
-        masacorporal<30
+    elif IMC>25 and IMC<30:
         print "Sobrepeso"
-elif masacorporal>30 and
-        masacorporal<40
+    elif IMC>30 and IMC<40:
         print "Obesidad"
-elif masacorporal>40
+    elif IMC>40:
         print "Obesidad morbida"
+output=masacorporal(a,h)
