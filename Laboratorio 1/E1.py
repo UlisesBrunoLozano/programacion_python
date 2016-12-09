@@ -1,4 +1,7 @@
-entrada=input("Introduzca un entero positivo ")
+#!/usrbin/env python
+# _*_ coding: utf-8 _*_
+#Ulises Bruno Lozano
+entrada=input("Introduzca un entero positivo: ")
 def funcion1(x):
     suma=0
     listax=[x for x in range(0,x+1)]

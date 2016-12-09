@@ -1,3 +1,7 @@
+#!/usrbin/env python
+# _*_ coding: utf-8 _*_entrada=input("Introduzca un entero positivo ")
+#Ulises Bruno Lozano
+#08/12/16
 a=input("Introduzca los segundos que viajo: ")
 def funcion2(a):
     dias=a/(86400)

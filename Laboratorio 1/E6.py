@@ -1,3 +1,6 @@
+#!/usrbin/env python
+# _*_ coding: utf-8 _*_entrada=input("Introduzca un entero positivo ")
+#Ulises Bruno Lozano
 import math
 a=input("Peso(kg): ")
 h=input("Altura(cm): ")
