@@ -1,3 +1,5 @@
+#!/usrbin/env python
+# _*_ coding: utf-8 _*_
 #Tarea 4 Ejercicio 2 a)
 #Ulises Bruno Lozano
 #03/12/16

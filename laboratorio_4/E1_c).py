@@ -1,3 +1,5 @@
+#!/usrbin/env python
+# _*_ coding: utf-8 _*_
 #Tarea 4 Ejercicio 1 c)
 #Ulises Bruno Lozano
 #02/12/16
@@ -14,4 +16,4 @@ plt.xlabel('t')
 plt.ylabel('f(t)=te**-2*t')
 plt.grid(True)
 plt.show()
-plt.savefig('incisoc.png')
+plt.savefig('grafica1c.png')

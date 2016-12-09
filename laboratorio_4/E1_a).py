@@ -1,3 +1,5 @@
+#!/usrbin/env python
+# _*_ coding: utf-8 _*_
 #Tarea 4 Ejercicio 1 a)
 #Ulises Bruno Lozano
 #02/12/16
@@ -12,4 +14,4 @@ plt.xlabel('x')
 plt.ylabel('f(x)=-x^2-4x+5')
 plt.grid(True)
 plt.show()
-plt.savefig('incisoa.png')
+plt.savefig('grafica1a.png')

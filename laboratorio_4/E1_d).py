@@ -1,3 +1,5 @@
+#!/usrbin/env python
+# _*_ coding: utf-8 _*_
 #Tarea 4 Ejercicio 1 d)
 #Ulises Bruno Lozano
 #02/12/16
@@ -15,4 +17,4 @@ plt.xlabel('t')
 plt.ylabel('h(t)=e^(-0.1*t)sen(2t)')
 plt.grid(True)
 plt.show()
-plt.savefig('incisod.png')
+plt.savefig('grafica1d.png')
