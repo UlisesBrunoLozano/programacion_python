@@ -1,3 +1,5 @@
+#!/usrbin/env python
+# _*_ coding: utf-8 _*_
 #Ejericio 4 tarea 3
 #Ulises Bruno Lozano
 #29/11/16
@@ -8,5 +10,4 @@ def parimpar(x):
       print ("Numero par")
   else:
       print ("Numero impar")
-
 output=parimpar(a)
