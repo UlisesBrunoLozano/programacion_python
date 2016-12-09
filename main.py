@@ -1,6 +1,6 @@
 import sys,os,pkgutil
 
-def load_all_modules_from_dir(Laboratorio_3,Laboratorio_1,laboratorio_2,laboratorio_4):
+def load_all_modules_from_dir(dirname):
     for importer, package_name, _ in pkgutil.iter_modules([dirname]):
         full_package_name = '%s.%s' % (dirname, package_name)
         if full_package_name not in sys.modules:
