@@ -13,6 +13,7 @@ def main():
     load_all_modules_from_dir('laboratorio_2')
     load_all_modules_from_dir('Laboratorio_3')
     load_all_modules_from_dir('laboratorio_3b')
+    load_all_modules_from_dir('laboratorio_4')
     print "Archivo principal"
 
 if __name__ == '__main__':
