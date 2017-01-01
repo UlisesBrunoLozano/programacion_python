@@ -9,14 +9,12 @@ def ejercicio3(a,b):
     a=x
     b=y
     archivo=open(a,'r')
-    lineas=len(archivo.readlines())
-    edicion=[]
+    edicion=0
+    archivo2=open(b,'w')
     copy=archivo.readlines()
-    for i in range(0,lineas+1):
-        edicion.append(i)
-    archieditado=open(b,'w')
     for i in copy:
-        archieditado.write(str(i))
-    for e in edicion:
-        archieditado.write(str(e)+"\n")
+        edicion=edicion+1
+        archivo2.write(str(edicion)+str(i)+" ")
+        print edicion
+        print i
 output=ejercicio3(x,y)
